@@ -1,0 +1,59 @@
+.form__card {
+  background-color: rgb(231, 245, 193);
+  box-shadow: 1px 1px 10px gray;
+  padding: 20px;
+  border-radius: 10px;
+  width: 600px;
+  position: fixed;
+  z-index: 9998;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+
+  &__info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+}
+
+.form__delete {
+  font-size: 30px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  cursor: pointer;
+  padding: 0px 20px;
+}
+input {
+  width: 100%;
+  padding: 12px;
+  box-shadow: inset 1px 1px 10px #e9e6e6;
+  border: 1px solid rgb(187, 185, 185);
+}
+
+.formBtn {
+  background-color: blue;
+  padding: 12px;
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form__card__bottom {
+  display: none;
+}
+
+.login__btn,
+.register__btn {
+  font-size: 20px;
+}
